@@ -28,5 +28,5 @@ jobs:
           python script/addChecklistToPR.py "${{ github.event.pull_request.title }}" \
                                             "${{ github.repository }}" \
                                             "${{ github.event.pull_request.number }}" \
-                                            "https://api.github.com/repos/GTharunesh/RTGit-CommonChecklistRepo/contents" \
+                                            "https://api.github.com/repos/devdpai311/RTGit-CommonChecklistRepo/contents" \
                                             "${{ secrets.GITHUB_TOKEN }}"
